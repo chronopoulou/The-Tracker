@@ -100,13 +100,6 @@ class WebsiteController extends Controller
 
         if (!$website) abort(404); // if website with this hash does not exists
 
-        // if (!$website->allow_cross_tracking) {
-        //   if (!isset($_SERVER['HTTP_ORIGIN']) || parse_url($_SERVER['HTTP_ORIGIN'], PHP_URL_HOST) != $website->url){
-        //     // abort(403, 'Unauthorized action.');
-        //     return view('api.websites.pixelCode', ['hash' => $_SERVER]);
-        //   }
-        // }
-
         return view('api.websites.pixelCode', ['website' => $website]);
     }
 
