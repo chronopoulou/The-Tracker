@@ -46,13 +46,13 @@ Mailchimp api call that import new contact email to a list
 | ------ | ------ |
 
 #### Json Request Fields:
-| Key | Value |
+| Key | Description |
 | ------ | ------ |
 |api_key | You can issue from Mailchimp, Account > Extras > API keys |
 |list_id | You can find it at list's Settings > List name and campaign defaults |
 |email | The email you want to add |
 
 #### Json Response Fields:
-| Key | Value |
+| Key | Description |
 | ------ | ------ |
 | id | The id of the imported email in the list |
