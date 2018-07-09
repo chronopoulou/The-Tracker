@@ -16,7 +16,7 @@ The Tracker creates a cookie on each website visitor to detect the visitor in th
 To detect the browser The Tracker use the feature detection method and not only the User_Agent
 
 ### IP Detection
-IP detection is made form the sever side useing the laravel Request 
+IP detection is made form the sever side using the laravel Request 
 
 # Installation
     $ git clone git@github.com:chronopoulou/The-Tracker.git
